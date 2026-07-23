@@ -149,3 +149,7 @@ docs/
 # Dotenv file
 .env
 
+
+
+# Broadcast
+broadcast/
