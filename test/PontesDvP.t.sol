@@ -7,15 +7,8 @@ import "../contracts/DGBToken.sol";
 import "../contracts/PontesDvP.sol";
 import "../contracts/CouponDistributor.sol";
 import "../contracts/RFQSettlement.sol";
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "../contracts/mocks/MockCash.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-
-/// @dev Minimal mintable stablecoin stand-in for tests only.
-contract MockCash is ERC20 {
-    constructor() ERC20("Mock EURC", "mEURC") {
-        _mint(msg.sender, 1_000_000 ether);
-    }
-}
 
 /// @dev Shared registry + bond fixture for suites that need a live DGBToken.
 abstract contract DanskBondTestBase is Test {
