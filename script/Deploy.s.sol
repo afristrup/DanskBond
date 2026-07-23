@@ -36,8 +36,7 @@ contract Deploy is Script {
         RFQSettlement rfqSettlement = new RFQSettlement();
         console2.log("RFQSettlement deployed:", address(rfqSettlement));
 
-        CouponDistributor couponDistributor =
-            new CouponDistributor(address(dgbToken), address(cashToken), deployer);
+        CouponDistributor couponDistributor = new CouponDistributor(address(dgbToken), address(cashToken), deployer);
         console2.log("CouponDistributor deployed:", address(couponDistributor));
 
         PontesDvP pontesDvP = new PontesDvP();
