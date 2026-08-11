@@ -2,7 +2,7 @@
 
 *Trade sovereign debt without the hassle*
 
-24/7 government bond trading with zero fees.
+24/7 government bond trading with zero spot fees.
 Trade fractional gilts across the Nordics.
 
 ![DanskBond GitHub Banner](./assets/DanskBond-GitHub-Banner.jpg)
