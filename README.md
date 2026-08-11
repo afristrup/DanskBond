@@ -7,7 +7,7 @@ Trade fractional gilts across the Nordics.
 
 ![DanskBond GitHub Banner](./assets/DanskBond-GitHub-Banner.jpg)
 
----
+
 ## How to get it running
 
 
