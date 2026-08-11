@@ -8,10 +8,26 @@ Trade fractional gilts across the Nordics.
 ![DanskBond GitHub Banner](./assets/DanskBond-GitHub-Banner.jpg)
 
 ---
+## How to get it running
+
+
+```shell
+# Clone & Install
+git clone https://github.com/afristrup/DanskBond.git
+cd DanskBond
+forge install
+
+# Run Tests with Gas Benchmarks
+forge test --gas-report
+
+# Run Coverage Report
+forge coverage
+```
+
 
 ---
 
-## Foundry
+## Foundry (original README.md from Foundry)
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
